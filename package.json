@@ -1,5 +1,5 @@
 {
-  "name": "weather-cli",
+  "name": "weather-cli-setcode",
   "version": "1.0.0",
   "description": "CLI for getting weather",
   "main": "weather.js",
@@ -8,7 +8,7 @@
   },
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node weather.js"
   },
   "keywords": [
     "cli",
@@ -16,6 +16,15 @@
   ],
   "author": "Egor Maximov",
   "license": "ISC",
+  "homepage": "https://github.com/setcodes/weather-cli",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/setcodes/weather-cli"
+  },
+  "bugs": {
+    "url": "https://github.com/setcodes/weather-cli",
+    "email": "maximov.egor@icloud.com"
+  },
   "dependencies": {
     "axios": "^0.24.0",
     "chalk": "^5.0.0",
