@@ -19,7 +19,7 @@ const setKeyValue = async (key, value) => {
     await promises.writeFile(filePath, JSON.stringify(data));
 }
 
-const getKeyValue = async () => {
+const getKeyValue = async (key) => {
     if (await isExist(filePath)) {
         const file = await promises.readFile(filePath);
         let data = JSON.parse(file);
