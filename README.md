@@ -5,7 +5,7 @@
 Установка:
 
 ```shell
-npm i -g cli-weather-setcode
+npm i -g weather-cli-setcodes
 ```
 API  
 [openweathermap.org](https://home.openweathermap.org) 

@@ -1,6 +1,6 @@
 {
-  "name": "weather-cli-setcode",
-  "version": "1.0.0",
+  "name": "weather-cli-setcodes",
+  "version": "1.0.1",
   "description": "CLI for getting weather",
   "main": "weather.js",
   "bin": {
@@ -23,11 +23,11 @@
   },
   "bugs": {
     "url": "https://github.com/setcodes/weather-cli",
-    "email": "maximov.egor@icloud.com"
+    "email": "egor_maximov@vk.com"
   },
   "dependencies": {
-    "axios": "^0.24.0",
-    "chalk": "^5.0.0",
+    "axios": "^0.27.2",
+    "chalk": "^5.0.1",
     "dedent-js": "^1.0.1"
   }
 }
